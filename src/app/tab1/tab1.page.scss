@@ -1,0 +1,31 @@
+ion-content {
+  --background: #111;
+  height: 100vh;
+  /* Certifique-se de que ocupe toda a altura da tela para não mostrar a página atrás*/
+  padding-bottom: 70px;
+}
+
+ion-card {
+  max-width: 400px;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  background-color: #2e2e5b;
+}
+
+ion-img {
+  border-radius: 10px 10px 0 0;
+}
+
+ion-card-title {
+  font-size: 22px;
+  color: #a5b3ff;
+  text-align: center;
+}
+
+ion-card-content {
+  color: #d0d5ff;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+}
